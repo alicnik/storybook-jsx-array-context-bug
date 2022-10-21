@@ -6,7 +6,7 @@ export const BarComponent = ({ lightText }) => {
   console.log('Bar context:', context);
   return (
     <div style={{ color: lightText ? 'white' : 'black' }}>
-      <h1>Foo Component</h1>
+      <h1>Bar Component</h1>
     </div>
   );
 };
